@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <title>RPG Dice Roller</title>
+  <link rel="stylesheet" href="RPGDiceRoller.css">
+</head>
+<body>
+  <div id = "pagename">
+    <h1>RPG Dice Roller</h1>
+  </div>
+  <div id = "picture">
+  </div>
+  <div id = "directions">
+    <p>This app will let you roll any number and type of dice while playing a tabletop role playing game! Click the button below to begin.</p>
+  </div>
+  <div id="setupdice">
+    <p>To begin, select the type and number of dice needed for the roll. Then click the roll button.</p>
+    <form>
+      <input type="radio" id="D20" name="dice" value="D20" checked> D20<br>
+      <input type="radio" id="D4" name="dice" value="D4"> D4<br>
+      <input type="radio" id="D6" name="dice" value="D6"> D6<br>
+      <input type="radio" id="D8" name="dice" value="D8"> D8<br>
+      <input type="radio" id="D10" name="dice" value="D10"> D10<br>
+      <input type="radio" id="D12" name="dice" value="D12"> D12<br><br>
+      Enter number of dice:<br>
+      <input type="text" id="numdice" name="numberdice"><br><br><br>
+      <input type="submit" id="letsroll" name="letsroll" value= "Lets Roll!">
+    </form>
+  </div>
+  <div id="rollresult">
+    <p id="resultp"></p>
+  </div>
+<script src="RPGDiceRoller.js"></script>
+</body>
+</html>

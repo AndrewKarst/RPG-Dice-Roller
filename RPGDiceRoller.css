@@ -24,7 +24,7 @@ body {
 
 #directions {
 	width: 600px;
-	background-color: #d15252;
+	background-color: #663300;
 	font-family: Roboto;
 	font-weight: bold;
 	text-align: center;
@@ -41,4 +41,9 @@ body {
 	color: gray;
 	font-size: 16px;
 	font-weight: bold;
+}
+
+#setupdice {
+	text-align: center;
+
 }
