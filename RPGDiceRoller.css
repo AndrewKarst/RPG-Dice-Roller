@@ -5,15 +5,15 @@ body {
 #pagename {
 	background-color: brown;
 	color: black;
-	font-family: Open Sans;
+	font-family: serif;
 	font-weight: bold;
 	text-align: center;
 	margin: auto;
 }
 
 #picture {
-	height: 600px;
-	width: 600px;
+	height: 700px;
+	display: inline-block;
 	background-image: url("castle.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -22,8 +22,6 @@ body {
 }
 
 #directions {
-	width: 600px;
-	background-color: #663300;
 	font-family: Roboto;
 	font-weight: bold;
 	text-align: center;
@@ -31,22 +29,33 @@ body {
 }
 
 #startbutton {
+	font-family: Roboto;
 	margin: auto;
 	text-align: center;
 }
 
 #letsroll {
 	background-color: black;
-	color: gray;
+	color: brown;
 	font-size: 16px;
 	font-weight: bold;
 }
 
 #setupdice {
+	background-color: brown;
 	text-align: center;
+	font-weight: bold;
 }
 
 #rollresult {
+	font-family: Roboto;
 	text-align: center;
 	background-color: brown;
+	font-weight: bold;
+	font-size: large;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
 }
