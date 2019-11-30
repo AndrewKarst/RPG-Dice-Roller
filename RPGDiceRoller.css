@@ -12,11 +12,12 @@ body {
 
 #picture {
 	height: 700px;
-	width: 700px;
+	width: auto;
 	background-image: url("castle.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	margin: auto;
 }
 
 #directions {
