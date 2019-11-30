@@ -3,8 +3,7 @@ body {
 }
 
 #pagename {
-	width: 600px;
-	background-color: #cb3b3b;
+	background-color: brown;
 	color: black;
 	font-family: Open Sans;
 	font-weight: bold;
@@ -45,5 +44,9 @@ body {
 
 #setupdice {
 	text-align: center;
+}
 
+#rollresult {
+	text-align: center;
+	background-color: brown;
 }
