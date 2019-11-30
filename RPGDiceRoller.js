@@ -1,5 +1,7 @@
+//Event listener to calculate roll after the button is clicked.
 document.getElementById("letsroll").addEventListener("click", setupDice);
 
+//Function that calculates the roll based on type and number of dice selected.
 function setupDice() {
 	
     var d4 = document.getElementById("D4");
@@ -8,9 +10,10 @@ function setupDice() {
 	var d10 = document.getElementById("D10");
 	var d12 = document.getElementById("D12");
 	var d20 = document.getElementById("D20");
-	var numDice = parseInt(document.getElementById("numdice").value, 10);
-	var totalDice = 0;
-	var result = "Result";
+	var numDice = parseInt(document.getElementById("numdice").value, 10); //number of dice from user converted to an integer.
+	var modifier = parseInt(document.getElementById("modifier").value, 10); //modifier from user converted to an integer.
+	var totalDice = 0; //total of the dice roll
+	var result = "Result"; //total dice and modifiers to be output as a string.
 	
 	if (d4.checked == true) {
 		for (var i = 0; i < numDice; i++) {
@@ -42,7 +45,9 @@ function setupDice() {
 			totalDice += Math.round(Math.random() * 20);
 		}
 	}
-		
-	result = totalDice.toString();
-	document.getElementById("resultp").textContent = result;
+	
+	totalDice += modifier; //adds modifier to the total dice roll.
+
+	result = totalDice.toString(); //converts totalDice integer to a string.
+	document.getElementById("resultp").textContent = "You rolled " + result; //replaces content of result div with the roll.
 }
