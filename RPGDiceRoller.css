@@ -13,7 +13,6 @@ body {
 
 #picture {
 	height: 700px;
-	display: inline-block;
 	background-image: url("castle.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
