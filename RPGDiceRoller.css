@@ -31,7 +31,6 @@ body {
 	font-family: serif;
 	font-weight: bold;
 	text-align: center;
-	margin: auto;
 	max-width: 100%;
 }
 
@@ -52,7 +51,6 @@ body {
 	background-color: #565033;
 	text-align: center;
 	font-weight: bold;
-	margin: auto;
 	max-width: 100%;
 }
 
@@ -62,7 +60,6 @@ body {
 	background-color: #856E44;
 	font-weight: bold;
 	font-size: large;
-	margin: auto;
 	max-width: 100%;
 }
 
