@@ -22,6 +22,7 @@ body {
 	font-weight: bolder;
 	font-size: xx-large;
 	text-shadow: 3px 3px black;
+	margin: auto;
 }
 
 #pagename {
