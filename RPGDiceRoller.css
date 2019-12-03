@@ -1,55 +1,68 @@
 body {
-	background-color: #731f1f;
+	background-color: #394427;
 }
 
 #picture {
-	background-image: url('castle.jpg');
+	background-image: url('dungeon.jpg');
 	background-repeat: no-repeat;
-	background-size: contain;
+	background-size: cover;
+	max-width: 100%;
+	height: auto;
 	background-position: center;
-	width: 100%;
-	height: 800px;
 	margin: auto;
 }
 
+#intro {
+	padding-top: 500px;
+	padding-bottom: 100px;
+	max-width: 60%;
+	height: auto;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: xx-large;
+	margin: auto;
+	text-shadow: 3px 3px black;
+}
+
 #pagename {
-	background-color: brown;
+	background-color: #BABC77;
 	color: black;
 	font-family: serif;
 	font-weight: bold;
 	text-align: center;
+	margin: auto;
 }
 
 #directions {
 	font-family: Roboto;
 	font-weight: bold;
 	text-align: center;
-	margin: auto;
 }
 
 #startbutton {
 	font-family: Roboto;
-	margin: auto;
 	text-align: center;
 }
 
 #letsroll {
 	background-color: black;
-	color: brown;
+	color: white;
 	font-size: 16px;
 	font-weight: bold;
 }
 
 #setupdice {
-	background-color: brown;
+	background-color: #565033;
 	text-align: center;
 	font-weight: bold;
+	
 }
 
 #rollresult {
 	font-family: Roboto;
 	text-align: center;
-	background-color: brown;
+	background-color: #856E44;
 	font-weight: bold;
 	font-size: large;
 }
