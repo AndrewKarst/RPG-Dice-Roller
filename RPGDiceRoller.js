@@ -17,32 +17,32 @@ function setupDice() {
 	
 	if (d4.checked == true) {
 		for (var i = 0; i < numDice; i++) {
-			totalDice += Math.round(Math.random() * 4);
+			totalDice += Math.floor(Math.random() * (4 - 1 + 1)) + 1;
 		}
 	}
 	else if (d6.checked == true) {
 		for (var i = 0; i < numDice; i++) {
-			totalDice += Math.round(Math.random() * 6);
+			totalDice += Math.floor(Math.random() * (6 - 1 + 1)) + 1;
 		}
 	}
 	else if (d8.checked == true) {
 		for (var i = 0; i < numDice; i++) {
-			totalDice += Math.round(Math.random() * 8);
+			totalDice += Math.floor(Math.random() * (8 - 1 + 1)) + 1;
 		}
 	}
 	else if (d10.checked == true) {
 		for (var i = 0; i < numDice; i++) {
-			totalDice += Math.round(Math.random() * 10);
+			totalDice += Math.floor(Math.random() * (10 - 1 + 1)) + 1;
 		}
 	}
 	else if (d12.checked == true) {
 		for (var i = 0; i < numDice; i++) {
-			totalDice += Math.round(Math.random() * 12);
+			totalDice += Math.floor(Math.random() * (12 - 1 + 1)) + 1;
 		}
 	}
 	else if (d20.checked == true) {
 		for (var i = 0; i < numDice; i++) {
-			totalDice += Math.round(Math.random() * 20);
+			totalDice += Math.floor(Math.random() * (20 - 1 + 1)) + 1;
 		}
 	}
 	
