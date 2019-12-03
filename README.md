@@ -11,7 +11,3 @@ Simple one page application to generate dice rolls for tabletop rpg games like D
 ## Authors
 
 * **Andrew Karst**
-
-## Acknowledgments
-
-* Royalty free images from (https://unsplash.com/@linussandvide)
