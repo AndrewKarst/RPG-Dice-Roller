@@ -26,11 +26,12 @@ body {
 }
 
 #pagename {
+	background-color: #BABC77;
 	color: black;
 	font-family: serif;
 	font-weight: bold;
 	text-align: center;
-	max-width: 100%;
+	margin: auto;
 }
 
 #directions {
@@ -50,8 +51,8 @@ body {
 	background-color: #565033;
 	text-align: center;
 	font-weight: bold;
-	padding-bottom: 50px;
 	margin: auto;
+	
 }
 
 #rollresult {
