@@ -32,6 +32,7 @@ body {
 	font-weight: bold;
 	text-align: center;
 	margin: auto;
+	max-width: 100%;
 }
 
 #directions {
@@ -52,7 +53,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	margin: auto;
-	
+	max-width: 100%;
 }
 
 #rollresult {
@@ -62,6 +63,7 @@ body {
 	font-weight: bold;
 	font-size: large;
 	margin: auto;
+	max-width: 100%;
 }
 
 .flex-container {
