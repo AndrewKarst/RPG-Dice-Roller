@@ -1,6 +1,5 @@
 body {
 	background-color: #394427;
-	max-width: 100%;
 }
 
 #picture {
@@ -40,11 +39,6 @@ body {
 	text-align: center;
 }
 
-#startbutton {
-	font-family: Roboto;
-	text-align: center;
-}
-
 #letsroll {
 	background-color: black;
 	color: white;
@@ -57,7 +51,7 @@ body {
 	text-align: center;
 	font-weight: bold;
 	padding-bottom: 50px;
-	max-width: 100%;
+	margin: auto;
 }
 
 #rollresult {
@@ -66,6 +60,7 @@ body {
 	background-color: #856E44;
 	font-weight: bold;
 	font-size: large;
+	margin: auto;
 }
 
 .flex-container {
